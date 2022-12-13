@@ -40,6 +40,6 @@ int main() {
 	for (std::list<const char*>::iterator itr = stationList.begin(); itr != stationList.end(); itr++) {
 		cout << *itr << " || ";
 	}
-
+	printf("\n\n");
 	return 0;
 }
