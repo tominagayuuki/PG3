@@ -18,7 +18,8 @@ int main() {
 		cout << *itr << " || ";
 	}
 	for (std::list<const char*>::iterator itr = stationList.begin(); itr != stationList.end(); itr++) {
-		if (*itr == "NIPPORI") {
+		if (strcmp(*itr, "NIPPORI") == 0) {
+		//if (*itr == "NIPPORI") {
 			itr = stationList.insert(itr, "-NISINIPPORI-");
 			itr++;
 		}
@@ -30,7 +31,7 @@ int main() {
 		cout << *itr << " || ";
 	}
 	for (std::list<const char*>::iterator itr = stationList.begin(); itr != stationList.end(); itr++) {
-		if (*itr == "SINAGAWA") {
+		if (strcmp(*itr,"SINAGAWA")==0) {
 			itr = stationList.insert(itr, "-TAKANAWAGETOWEI-");
 			itr++;
 		}
