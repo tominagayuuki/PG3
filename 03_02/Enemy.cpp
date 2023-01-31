@@ -1,4 +1,7 @@
 #include "Enemy.h"
+#include "Enemy.h"
+#include "Enemy.h"
+#include "Enemy.h"
 #include<stdio.h>
 
 //static ƒƒ“ƒo•Ï”‚Í Enemy cpp ‚Å—pˆÓ‚·‚é
@@ -13,6 +16,7 @@ Enemy::Enemy()
 Enemy::~Enemy()
 {
 }
+
 
 bool Enemy::IsAlive()
 {
