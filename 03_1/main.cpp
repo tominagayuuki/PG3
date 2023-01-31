@@ -16,10 +16,10 @@ int main() {
 	while (true) {
 		sm->ChangeScene(scene);
 		scene += 1;
-
 		if (scene == 4) {
-			return 0;
+			break;
 		}
+		
 	}
 	return 0;
 
